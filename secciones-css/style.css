@@ -1,10 +1,7 @@
 /*Seccion index*/
 
 
-/*a los enlaces
-a{
-    textdecoration: none;
-}*/
+
 body{
     background: linear-gradient(bottom, rgb(128, 128, 129), white);
 }
@@ -151,6 +148,20 @@ img{
 
 }
 
+.img-Txt-nos{
+    display: flex;
+    justify-content: center;
+}
+
+.img-nos{
+    margin: 20px;
+}
+
+.txt-nos{
+    margin: auto;
+    font-size: 23px;
+}
+
 
 /*Fin seccion nosotros*/
 
@@ -185,6 +196,9 @@ img{
     text-align: center;
 }
 
+.img-Txt-serv{
+    display: flex;
+}
 
 
 /*Fin nuestros servicios*/
