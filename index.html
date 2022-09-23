@@ -19,20 +19,49 @@
 </head>
 
 <body>
-    <header class="class-Header">
-        <div class="img-Logo">
-            <img src="imagenes/logoluli.jpg" alt="Logo" class="logo">
-        </div>
-        <nav>
+    <header>
+
+        <nav class="navbar navbar-expand-lg class-Header">
+            <div class="container">
+                    <img src="./imagenes/logoluli.jpg" alt="Logo" width="90" height="90">            
+            </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones-css/nosotros.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones-css/nuestrosproyectos.html">Nuestros Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones-css/servicios.html">Nuestros Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./secciones-css/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--         <nav>
             <ul>
-                <!--La idea es cuando veamos Boostrap, es hacer un menu desplegable tipo hamburguesa y asi quede adaptado a MediaQueris-->
+                La idea es cuando veamos Boostrap, es hacer un menu desplegable tipo hamburguesa y asi quede adaptado a MediaQueris
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="./secciones-css/nosotros.html">Nosotros</a></li>
                 <li><a href="./secciones-css/nuestrosproyectos.html">Nuestros Proyectos</a></li>
                 <li><a href="./secciones-css/servicios.html">Nuestros Servicios</a></li>
                 <li><a href="./secciones-css/contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <main class="class-Nav">
         <div class="title-Video">
@@ -75,6 +104,15 @@
         </div>
 
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

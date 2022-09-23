@@ -24,15 +24,16 @@ a{
 .class-Header{
     background-color: rgb(64, 104, 130);
     position: sticky;
-    top: 0px;
+    
+    /* top: 0px;
     font-size: 1.3rem;
-    z-index: 1;
+    z-index: 1; */
     /*position: fixed;
-    top: 0px;*/
+    top: 0px;
 
     /*Activar flex box*/
     /* display: flex;
-    justify-content: cen; */
+    justify-content: cen; */ 
 }
 
 .img-Logo{
@@ -118,11 +119,11 @@ video{
 /* List-style Para sacar biñetas o numeros de las listas 
 display te acomoda los items de la lista de costado
 padding separacion interna del bloque entre objetos*/
-li{
+ul{
     list-style: none;
     display: inline-block;
-    padding: 5px 80px 5px 80px;
-        
+    display: flex;
+    
 }
 
 img{
@@ -155,6 +156,8 @@ img{
 
 .img-nos{
     margin: 20px;
+    width: 60vw;
+    height: 60;
 }
 
 .txt-nos{
@@ -218,8 +221,17 @@ img{
 /*Media Queris Mobile*/
 
 @media only screen and (max-width:450px){
-    .class-Nav-Nos{
+    /* .class-Nav-Nos{
         display: none;
+    } */
+    .img-Txt-serv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt-nos{
+        font-size: 15px;
+        margin: 5px;
+
     }
 }
 
