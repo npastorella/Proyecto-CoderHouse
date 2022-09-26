@@ -2,29 +2,30 @@
 
 
 
-body{
+body {
     background: linear-gradient(bottom, rgb(128, 128, 129), white);
 }
 
 /*Reseteo universal*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 /*con estas lineas se le saca el subrayado y el color de los enlaces*/
-a{
+a {
     text-decoration: none;
     color: black;
 }
+
 /*Inicio header*/
 
-.class-Header{
+.class-Header {
     background-color: rgb(64, 104, 130);
-    position: sticky;
-    
+    /* position: sticky; */
+
     /* top: 0px;
     font-size: 1.3rem;
     z-index: 1; */
@@ -33,31 +34,32 @@ a{
 
     /*Activar flex box*/
     /* display: flex;
-    justify-content: cen; */ 
+    justify-content: cen; */
 }
 
-.img-Logo{
+.img-Logo {
     display: flex;
 
 }
 
 
 /*modificador de tamaño del loco del header*/
-.logo{    
+.logo {
     width: 8%;
     border: 2px solid black;
 }
+
 /*fin header*/
 
 /*Inicio seccion navegable index*/
 
-.class-Nav{
+.class-Nav {
     background-color: rgb(105, 152, 171);
-    
+
 }
 
 /*Estilo de texto para titulos*/
-.title{
+.title {
     width: 100%;
     height: 100%;
     font-weight: 900;
@@ -69,7 +71,7 @@ a{
     */
 }
 
-.title-Video{
+.title-Video {
     width: 100%;
     height: auto;
     font-weight: 900;
@@ -80,32 +82,32 @@ a{
     /* display: flex;
     justify-content: center;
     position: relative; */
-    
+
 
 }
 
 
 
-.nosotros{     
-    text-align: center;     
-    font-style: rgb(252, 252, 252); 
-    font-size: 2rem; 
+.nosotros {
+    text-align: center;
+    font-style: rgb(252, 252, 252);
+    font-size: 2rem;
     /* display: flex;
     justify-content: center;
     position: absolute; */
-  
+
 }
 
-video{
-    
+video {
+
     width: 100%;
     border: 3px solid black;
     /*opacity: 0.45;*/
-    
+
 
 }
 
-.nueustros-Pro{
+.nueustros-Pro {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -119,14 +121,14 @@ video{
 /* List-style Para sacar biñetas o numeros de las listas 
 display te acomoda los items de la lista de costado
 padding separacion interna del bloque entre objetos*/
-ul{
+ul {
     list-style: none;
     display: inline-block;
     display: flex;
-    
+
 }
 
-img{
+img {
     border: 3px solid black;
 }
 
@@ -134,7 +136,7 @@ img{
 
 /*Inicio footer*/
 
-.class-Footer{
+.class-Footer {
     background-color: rgb(64, 104, 130);
     /*position: fixed;
     bottom: 0;*/
@@ -142,25 +144,20 @@ img{
 
 /*Seccion Nosotro*/
 
-.class-Nav-Nos{
+.class-Nav-Nos {
     background-color: rgb(105, 152, 171);
     font-size: 1.5rem;
     text-align: center;
 
 }
 
-.img-Txt-nos{
-    display: flex;
-    justify-content: center;
-}
-
-.img-nos{
+.img-nos {
     margin: 20px;
     width: 60vw;
-    height: 60;
+    height: 60vw;
 }
 
-.txt-nos{
+.txt-nos {
     margin: auto;
     font-size: 1.4rem;
 }
@@ -170,38 +167,42 @@ img{
 
 /*Inicio seccion Nuestros proyectos*/
 
-.class-Nav-Nuestrospro{
+.class-Nav-Nuestrospro {
     background-color: rgb(105, 152, 171);
     font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
+/*     display: flex;
+    justify-content: center; */
     text-align: center;
 }
 
-.imagenes-Nuestrospro{
-    display: flex;    
+.imagenes-Nuestrospro {
+    display: flex;
     justify-content: center;
     flex-direction: column;
 
 }
 
-.position-Imag{
+.position-Imag {
     text-align: center;
+}
+
+.img-Carousel{
+    width: 75%;
+    margin: 0 auto;
+    
 }
 
 /*Fin seccion nuestros proyectos*/
 
 /*Inicio nuestros servicios*/
 
-.nav-Servicios{
+.nav-Servicios {
     background-color: rgb(105, 152, 171);
     font-size: 1.5rem;
     text-align: center;
 }
 
-.img-Txt-serv{
-    display: flex;
-}
+
 
 
 /*Fin nuestros servicios*/
@@ -209,7 +210,7 @@ img{
 
 /*Inicio de seccion contacto*/
 
-.nav-Contacto{
+.nav-Contacto {
     background-color: rgb(105, 152, 171);
     font-size: 1.5rem;
 }
@@ -220,30 +221,74 @@ img{
 
 /*Media Queris Mobile*/
 
-@media only screen and (max-width:450px){
-    /* .class-Nav-Nos{
-        display: none;
-    } */
-    .img-Txt-serv{
-        flex-direction: column;
-        align-items: center;
-    }
-    .txt-nos{
-        font-size: 15px;
-        margin: 5px;
+@media only screen and (max-width:450px) {
 
+    /*Nosotros*/
+    .txt-nos {
+        font-size: 12px;
     }
+
+    /*Servicios*/
+
+    /*Contacto*/
+    .nav-Contacto{
+        font-size: 1rem;
+    }
+    .img-Cont{
+        width: 350px;
+    }
+
 }
 
 /*Media Queris tablet*/
 
-@media only screen and (min-width:451px) and (max-width:960px){
-    
+@media only screen and (min-width:451px) and (max-width:960px) {
+
+    /*Nosotros*/
+
+    .txt-nos {
+        font-size: 1.1rem;
+    }
+
+    /*Servicios*/
+
+    /*Contacto*/
+    .nav-Contacto{
+        font-size: 1.2rem;
+        
+    }
+    .img-Cont{
+        width: 400px;
+    }
+
 }
 
 
 /*Media Queris monitor*/
 
-@media only screen and (min-width: 961px){
+@media only screen and (min-width: 961px) {
 
+    /*Nosotros*/
+    .img-Txt-nos {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+    }
+
+    .img-Txt-nosotros {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Servicios*/
+    .img-Txt-serv {
+        display: flex;
+        justify-content: center;
+    }
+    .img-Txt-servicios {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
 }
