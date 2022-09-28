@@ -20,6 +20,25 @@ a {
     color: black;
 }
 
+.menu a:hover{
+    display: block;
+    background-color: rgba(0, 255, 13, 0.363);
+    transition-property: all;
+    transition-duration: 1s;
+    text-decoration: underline;
+    transform: scale(1.1);
+    border: solid 2px black;
+    
+}
+
+.boton a:hover{
+    display: block;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 2s;
+    transform: scale(1.5);
+}
+
 /*Inicio header*/
 
 .class-Header {
@@ -215,8 +234,48 @@ img {
     font-size: 1.5rem;
 }
 
-
 /*Fin de seccion contacto*/
+
+/*Animaciones*/
+.grid-Contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid 3px black;
+    }
+.grid-contA{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contB{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contC{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contD{
+    grid-row: 1 span ;
+    border: solid 1px black;
+}
+/*Seccion redes footer*/
+.img-face{
+    width: 7%;
+    border: none;
+}
+
+.img-linkedin{
+    width: 5%;
+    border: none;
+}
+
+.img-insta{
+    width: 5%;
+    border: none;
+}
 
 
 /*Media Queris Mobile*/
