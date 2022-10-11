@@ -1,0 +1,44 @@
+
+/*Estilos Header*/
+.class-Header {
+    background-color: $bg-header-footer;
+}
+
+.menu a:hover {
+    display: block;
+    background-color: $bg-menu-hover;
+    transition-property: all;
+    transition-duration: 1s;
+    text-decoration: underline;
+    transform: scale(1.1);
+    border: solid 2px black;
+}
+
+/*Estilos Footer*/
+
+.class-Footer {
+    a {
+        .img-face {
+            width: 7%;
+            border: none;
+        }
+    }
+
+    a {
+        .img-linkedin {
+            width: 5%;
+            border: none;
+        }
+    }
+
+    a {
+        .img-insta {
+            width: 5%;
+            border: none;
+        }
+    }
+}
+
+.class-Footer {
+    background-color: $bg-header-footer;
+}

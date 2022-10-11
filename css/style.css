@@ -1,0 +1,243 @@
+/*Reseteo universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*con estas lineas se le saca el subrayado y el color de los enlaces*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+}
+
+img {
+  border: 3px solid black;
+}
+
+/*Estilos Header*/
+.class-Header {
+  background-color: rgb(64, 104, 130);
+}
+
+.menu a:hover {
+  display: block;
+  background-color: rgba(138, 130, 226, 0.589);
+  transition-property: all;
+  transition-duration: 1s;
+  text-decoration: underline;
+  transform: scale(1.1);
+  border: solid 2px black;
+}
+
+/*Estilos Footer*/
+.class-Footer a .img-face {
+  width: 7%;
+  border: none;
+}
+.class-Footer a .img-linkedin {
+  width: 5%;
+  border: none;
+}
+.class-Footer a .img-insta {
+  width: 5%;
+  border: none;
+}
+
+.class-Footer {
+  background-color: rgb(64, 104, 130);
+}
+
+/*Estilos index*/
+.class-Nav {
+  background-color: rgb(105, 152, 171);
+}
+.class-Nav .title-Video {
+  width: 100%;
+  height: auto;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.class-Nav .title-Video .nosotros {
+  text-align: center;
+  font-style: rgb(252, 252, 252);
+  font-size: 2rem;
+}
+.class-Nav .title-Video video {
+  width: 100%;
+  border: 3px solid black;
+}
+.class-Nav .boton a:hover {
+  color: rgba(138, 130, 226, 0.589);
+  display: block;
+  text-decoration: underline;
+  transition-property: all;
+  transition-duration: 2s;
+  transform: scale(1.5);
+}
+.class-Nav .title {
+  width: 100%;
+  height: 100%;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Inicio Nosotros*/
+.class-Nav-Nos {
+  background-color: rgb(105, 152, 171);
+  font-size: 1.5rem;
+  text-align: center;
+}
+.class-Nav-Nos .img-Txt-nos .img-nos {
+  margin: 20px;
+  width: 60vw;
+  height: 60vw;
+}
+.class-Nav-Nos .img-Txt-nos .txt-nos {
+  margin: auto;
+  font-size: 1.4rem;
+}
+.class-Nav-Nos .img-Txt-nosotros .img-nos {
+  margin: 20px;
+  width: 60vw;
+  height: 60vw;
+}
+.class-Nav-Nos .img-Txt-nosotros .txt-nos {
+  margin: auto;
+  font-size: 1.4rem;
+}
+
+/*Inicio Nuestros Proyectos*/
+.class-Nav-Nuestrospro {
+  background-color: rgb(105, 152, 171);
+  font-size: 1.5rem;
+  text-align: center;
+}
+.class-Nav-Nuestrospro .img-Carousel {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*Inicio Servicios*/
+.nav-Servicios {
+  background-color: rgb(105, 152, 171);
+  font-size: 1.5rem;
+  text-align: center;
+}
+.nav-Servicios .txt-nos {
+  margin: auto;
+  font-size: 1.4rem;
+}
+.nav-Servicios .img-nos {
+  margin: 20px;
+  width: 60vw;
+  height: 60vw;
+}
+
+.nav-Contacto {
+  background-color: rgb(105, 152, 171);
+  font-size: 1.5rem;
+}
+.nav-Contacto .txt-cont {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Estilos Header*/
+.class-Header {
+  background-color: rgb(64, 104, 130);
+}
+
+.menu a:hover {
+  display: block;
+  background-color: rgba(138, 130, 226, 0.589);
+  transition-property: all;
+  transition-duration: 1s;
+  text-decoration: underline;
+  transform: scale(1.1);
+  border: solid 2px black;
+}
+
+/*Estilos Footer*/
+.class-Footer a .img-face {
+  width: 7%;
+  border: none;
+}
+.class-Footer a .img-linkedin {
+  width: 5%;
+  border: none;
+}
+.class-Footer a .img-insta {
+  width: 5%;
+  border: none;
+}
+
+.class-Footer {
+  background-color: rgb(64, 104, 130);
+}
+
+/*Media Queris Mobile*/
+@media only screen and (max-width: 450px) {
+  /*Nosotros*/
+  .txt-nos {
+    font-size: 12px;
+  }
+  /*Servicios*/
+  /*Contacto*/
+  .nav-Contacto {
+    font-size: 1rem;
+  }
+  .img-Cont {
+    width: 350px;
+  }
+}
+/*Media Queris tablet*/
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  /*Nosotros*/
+  .txt-nos {
+    font-size: 1.1rem;
+  }
+  /*Servicios*/
+  /*Contacto*/
+  .nav-Contacto {
+    font-size: 1.2rem;
+  }
+  .img-Cont {
+    width: 400px;
+  }
+}
+/*Media Queris monitor*/
+@media only screen and (min-width: 961px) {
+  /*Nosotros*/
+  .img-Txt-nos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .img-Txt-nosotros {
+    display: flex;
+    justify-content: center;
+  }
+  /*Servicios*/
+  .img-Txt-serv {
+    display: flex;
+    justify-content: center;
+  }
+  .img-Txt-servicios {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

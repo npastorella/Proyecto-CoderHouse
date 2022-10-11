@@ -1,0 +1,285 @@
+/*Seccion index*/
+
+
+/* .menu a:hover{
+    display: block;
+    background-color: rgba(0, 255, 13, 0.363);
+    transition-property: all;
+    transition-duration: 1s;
+    text-decoration: underline;
+    transform: scale(1.1);
+    border: solid 2px black;    
+} */
+
+/* .boton a:hover{
+    display: block;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 2s;
+    transform: scale(1.5);
+} */
+
+/*Inicio header*/
+
+/* .class-Header {
+    background-color: rgb(64, 104, 130);
+} */
+
+/*modificador de tamaño del loco del header*/
+/* .logo {
+    width: 8%;
+    border: 2px solid black;
+} */
+
+/*fin header*/
+
+/*Inicio seccion navegable index*/
+
+/* .class-Nav {
+    background-color: rgb(105, 152, 171);
+
+} */
+
+/*Estilo de texto para titulos*/
+/* .title {
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .title-Video {
+    width: 100%;
+    height: auto;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+/* .nosotros {
+    text-align: center;
+    font-style: rgb(252, 252, 252);
+    font-size: 2rem;
+} */
+
+/* video {
+    width: 100%;
+    border: 3px solid black;
+} */
+
+/* .nueustros-Pro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+
+/* List-style Para sacar biñetas o numeros de las listas 
+display te acomoda los items de la lista de costado
+padding separacion interna del bloque entre objetos*/
+/* ul {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+}
+
+img {
+    border: 3px solid black;
+} */
+
+/*Fin zona navegable*/
+
+/*Inicio footer*/
+
+/* .class-Footer {
+    background-color: rgb(64, 104, 130);
+}
+ */
+/*Seccion Nosotro*/
+
+/* .class-Nav-Nos {
+    background-color: rgb(105, 152, 171);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.img-nos {
+    margin: 20px;
+    width: 60vw;
+    height: 60vw;
+}
+
+.txt-nos {
+    margin: auto;
+    font-size: 1.4rem;
+}
+ */
+
+/*Fin seccion nosotros*/
+
+/*Inicio seccion Nuestros proyectos*/
+
+/* .class-Nav-Nuestrospro {
+    background-color: rgb(105, 152, 171);
+    font-size: 1.5rem;
+    text-align: center;
+} */
+
+/* .imagenes-Nuestrospro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.position-Imag {
+    text-align: center;
+} */
+
+/* .img-Carousel{
+    width: 75%;
+    margin: 0 auto;
+} */
+
+/*Fin seccion nuestros proyectos*/
+
+/*Inicio nuestros servicios*/
+
+/* .nav-Servicios {
+    background-color: rgb(105, 152, 171);
+    font-size: 1.5rem;
+    text-align: center;
+} */
+
+/*Fin nuestros servicios*/
+
+
+/*Inicio de seccion contacto*/
+
+/* .nav-Contacto {
+    background-color: rgb(105, 152, 171);
+    font-size: 1.5rem;
+}
+.txt-cont{
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+/*Fin de seccion contacto*/
+
+.grid-Contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid 3px black;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.grid-contA{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contB{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contC{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contD{
+    grid-row: 1 span ;
+    border: solid 1px black;
+}
+
+/*Seccion redes footer*/
+/* .img-face{
+    width: 7%;
+    border: none;
+}
+
+.img-linkedin{
+    width: 5%;
+    border: none;
+}
+
+.img-insta{
+    width: 5%;
+    border: none;
+}
+ */
+
+/*Media Queris Mobile*/
+
+/* @media only screen and (max-width:450px) {
+
+    Nosotros
+    .txt-nos {
+        font-size: 12px;
+    }
+
+    Contacto
+    .nav-Contacto{
+        font-size: 1rem;
+    }
+    .img-Cont{
+        width: 350px;
+    }
+
+} */
+
+/*Media Queris tablet*/
+
+/* @media only screen and (min-width:451px) and (max-width:960px) {
+
+
+    .txt-nos {
+        font-size: 1.1rem;
+    }
+
+    
+    .nav-Contacto{
+        font-size: 1.2rem;
+        
+    }
+    .img-Cont{
+        width: 400px;
+    }
+
+}
+ */
+
+/*Media Queris monitor*/
+
+/* @media only screen and (min-width: 961px) {
+
+    
+    .img-Txt-nos {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+    }
+
+    .img-Txt-nosotros {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .img-Txt-serv {
+        display: flex;
+        justify-content: center;
+    }
+    .img-Txt-servicios {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+} */

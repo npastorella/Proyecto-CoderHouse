@@ -1,0 +1,9 @@
+@import '../base/variables';
+.nav-Contacto {
+    background-color: $bg-nav;
+    font-size: 1.5rem;
+    .txt-cont{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

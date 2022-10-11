@@ -1,0 +1,22 @@
+/*Reseteo universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*con estas lineas se le saca el subrayado y el color de los enlaces*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+}
+
+img {
+    border: 3px solid black;
+}

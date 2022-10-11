@@ -5,13 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudio de Arquitectura LP</title>
+
+    <!--Etiqueta META description  entre 70 a 320 caracteres. Idealmente 180 caracteres. meta:desc-->
+    <meta name="description" content="">
+    <!--Keywords palabras clave, separadas con coma, 18 palabras clave. Meta:kw-->
+    <meta name="keywords" content="">
+    <!--Protocolo open graph-->
+    <meta property="og:type" content="Estudio de Arquitectura">
+    <!--titulo-->
+    <meta property="og:title" content="Estudio de Arquitectura | Maria Laura Pastorella">
+    <!--url-->
+    <meta property="og:url" content="http://.....">
+    <!--imagen del sitio en content imagen subida desde internet, una url-->
+    <meta property="og:image" content="http://.....">
+
+    <title>Estudio de Arquitectura | Maria Laura Pastorella</title>
     <link rel="shortcut icon" href="imagenes/logoluli.jpg" type="image/x-icon">
     <!-- CDN Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--llamado al nuevo CSS-->
+    <link rel="stylesheet" href="./css/style.css">
     <!--llamado a CSS-->
-    <link rel="stylesheet" href="./secciones-css/style.css">
+    <!-- <link rel="stylesheet" href="./secciones-css/backup.css"> -->
     <!--Link libreria animacion-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
@@ -19,11 +35,15 @@
 </head>
 
 <body>
-    <header class="sticky-top menu">
-        <div class="container-fluid class-Header ">  
-            <img src="./imagenes/logoluli.jpg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
+    <header class="sticky-top">
+        <div class="container-fluid class-Header ">
+            <a href="index.html">
+                <img src="./imagenes/logoluli.jpg" alt="Logo del estudio de arquitectura" width="70" height="70"
+                    class="d-inline-block align-text-top">
+            </a>
+
         </div>
-        <nav class="navbar navbar-expand-lg class-Header">
+        <nav class="navbar navbar-expand-lg class-Header menu">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">Estudio de Arquitectura</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -51,29 +71,27 @@
         </nav>
     </header>
 
-
-
-
     <main class="class-Nav">
         <div class="title-Video">
             <p class="nosotros boton">
                 <a href="./secciones-css/nosotros.html">Nosotros</a>
             </p>
             <video autoplay muted loop>
-                <source src="imagenes/gif-video/video-fondo.mp4" type="video/mp4">
+                <source src="imagenes/gif-video/video-fondo.mp4"
+                    title="Video de varios proyectos de el estudiode arquitectura" type="video/mp4">
             </video>
         </div>
-        <div class="title nuestros-Pro boton">
+        <div class="title boton">
             <a href="./secciones-css/nuestrosproyectos.html">Nuestros Proyectos</a>
-            <img src="imagenes/imagenes-casa-luli/estructurasmet-leodinardo/03.jpg" alt="imagen" width="100%"
-                height="100%">
+            <img src="imagenes/imagenes-casa-luli/estructurasmet-leodinardo/03.jpg"
+                alt="Imagen de Proyecto de estructuras metalicas de Leo DiNardo" width="100%" height="100%">
 
         </div>
 
-        <div class="title boton">            
+        <div class="title boton">
             <a href="./secciones-css/servicios.html">Servicios</a>
-            <img src="imagenes/imagenes-casa-luli/plano.png" alt="plano" width="100%">
-
+            <img src="imagenes/imagenes-casa-luli/plano.png" alt="Plano de un proyecto del estudiodo de arquitectura"
+                width="100%">
         </div>
 
 
@@ -84,13 +102,13 @@
             <h3>Seguinos en nuestras redes sociales:</h3>
 
             <a href="http://www.facebook.com" target="_blank">
-                <img class="img-face" src="./imagenes/redes/face.png" alt="Enlace Facebook">
+                <img class="img-face" src="./imagenes/redes/face.png" alt="Enlace a nuestra red social Facebook">
             </a>
             <a href="http://www.linkedin.com" target="_blank">
-                <img class="img-linkedin" src="./imagenes/redes/linkedin.png" alt="Enlace Linkedin">
+                <img class="img-linkedin" src="./imagenes/redes/linkedin.png" alt="Enlace a nuestra red socialLinkedin">
             </a>
             <a href="http://www.instagram.com" target="_blank">
-                <img class="img-insta" src="./imagenes/redes/instagram.png" alt="Enlace Instagram">
+                <img class="img-insta" src="./imagenes/redes/instagram.png" alt="Enlace a nuestra red social Instagram">
             </a>
             <p>
                 <u>Telefonos de contacto:</u> 011-xxx-xxx-xxxx 4xxx-xxxx <br>
