@@ -7,3 +7,30 @@
         margin-right: 10px;
     }
 }
+
+.grid-Contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid 3px black;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.grid-contA{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contB{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contC{
+    grid-row: 1 span 1;
+    border: solid 1px black;
+}
+.grid-contD{
+    grid-row: 1 span ;
+    border: solid 1px black;
+}

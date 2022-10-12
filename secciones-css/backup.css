@@ -171,7 +171,7 @@ img {
 } */
 /*Fin de seccion contacto*/
 
-.grid-Contacto {
+/* .grid-Contacto {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
@@ -196,7 +196,7 @@ img {
 .grid-contD{
     grid-row: 1 span ;
     border: solid 1px black;
-}
+} */
 
 /*Seccion redes footer*/
 /* .img-face{
