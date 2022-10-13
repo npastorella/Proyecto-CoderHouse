@@ -1,3 +1,4 @@
+/*Estilos Generales*/
 /*Reseteo universal*/
 * {
   margin: 0;
@@ -19,6 +20,22 @@ ul {
 
 img {
   border: 3px solid black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/*hablando con la profesora, me comento que como era 1 solo extend lo coloque en estilos generales*/
+.class-Nav-Nos .img-Txt-nosotros .img-nos, .class-Nav-Nos .img-Txt-nos .img-nos {
+  margin: 20px;
+  width: 60vw;
+  height: 60vw;
+}
+
+.class-Nav-Nos .img-Txt-nosotros .txt-nos, .class-Nav-Nos .img-Txt-nos .txt-nos {
+  margin: auto;
+  font-size: 1.4rem;
 }
 
 /*Estilos Header*/
@@ -92,31 +109,52 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Estilos Generales*/
+/*Reseteo universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*con estas lineas se le saca el subrayado y el color de los enlaces*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  display: flex;
+}
+
+img {
+  border: 3px solid black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/*hablando con la profesora, me comento que como era 1 solo extend lo coloque en estilos generales*/
+.class-Nav-Nos .img-Txt-nosotros .img-nos, .class-Nav-Nos .img-Txt-nos .img-nos {
+  margin: 20px;
+  width: 60vw;
+  height: 60vw;
+}
+
+.class-Nav-Nos .img-Txt-nosotros .txt-nos, .class-Nav-Nos .img-Txt-nos .txt-nos {
+  margin: auto;
+  font-size: 1.4rem;
+}
+
 /*Inicio Nosotros*/
 .class-Nav-Nos {
   background-color: rgb(105, 152, 171);
   font-size: 1.5rem;
   text-align: center;
 }
-.class-Nav-Nos .img-Txt-nos .img-nos {
-  margin: 20px;
-  width: 60vw;
-  height: 60vw;
-}
-.class-Nav-Nos .img-Txt-nos .txt-nos {
-  margin: auto;
-  font-size: 1.4rem;
-}
-.class-Nav-Nos .img-Txt-nosotros .img-nos {
-  margin: 20px;
-  width: 60vw;
-  height: 60vw;
-}
-.class-Nav-Nos .img-Txt-nosotros .txt-nos {
-  margin: auto;
-  font-size: 1.4rem;
-}
-
 /*Inicio Nuestros Proyectos*/
 .class-Nav-Nuestrospro {
   background-color: rgb(105, 152, 171);

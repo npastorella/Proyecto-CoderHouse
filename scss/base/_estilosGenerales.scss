@@ -1,3 +1,4 @@
+/*Estilos Generales*/
 /*Reseteo universal*/
 * {
     margin: 0;
@@ -19,4 +20,19 @@ ul {
 
 img {
     border: 3px solid black;
+}
+
+h1 {
+    font-size: 20px;
+}
+/*hablando con la profesora, me comento que como era 1 solo extend lo coloque en estilos generales*/
+%imgs {
+    margin: 20px;
+    width: 60vw;
+    height: 60vw;
+}
+
+%txt {
+    margin: auto;
+    font-size: 1.4rem;
 }
