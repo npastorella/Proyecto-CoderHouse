@@ -1,36 +1,77 @@
 @import '../base/variables';
+
 .nav-Contacto {
     background-color: $bg-nav;
     font-size: 1.5rem;
-    .txt-cont{
+
+    .txt-cont {
         margin-left: 10px;
         margin-right: 10px;
     }
 }
 
-.grid-Contacto {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    border: solid 3px black;
-    margin-left: 10px;
-    margin-right: 10px;
-    }
-.grid-contA{
-    grid-row: 1 span 1;
-    border: solid 1px black;
+.container {
+    width: 50%;
+    margin: 0 auto;
 }
-.grid-contB{
-    grid-row: 1 span 1;
-    border: solid 1px black;
+
+.form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
 }
-.grid-contC{
-    grid-row: 1 span 1;
-    border: solid 1px black;
+
+.form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 16px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
 }
-.grid-contD{
-    grid-row: 1 span ;
-    border: solid 1px black;
+
+.form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 16px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+}
+
+.form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    /* margin-bottom: 20px; */
+    cursor: pointer;
+    background: #03023c;
+    display: block;
+    border: none;
+    border: 1px solid #000;
+    transition: 1s;
+}
+
+.form-contact-button:hover {
+    opacity: 0.5;
 }

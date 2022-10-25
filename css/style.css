@@ -81,16 +81,18 @@ h1 {
   font-weight: 900;
   font-size: 2rem;
   text-align: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 .class-Nav .title-Video .nosotros {
   text-align: center;
   font-style: rgb(252, 252, 252);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .class-Nav .title-Video video {
-  width: 100%;
+  width: 75%;
   border: 3px solid black;
+  text-align: center;
 }
 .class-Nav .boton a:hover {
   color: rgba(138, 130, 226, 0.589);
@@ -104,8 +106,9 @@ h1 {
   width: 100%;
   height: 100%;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -160,6 +163,7 @@ h1 {
   background-color: rgb(105, 152, 171);
   font-size: 1.5rem;
   text-align: center;
+  font-weight: bold;
 }
 .class-Nav-Nuestrospro .img-Carousel {
   width: 75%;
@@ -191,35 +195,70 @@ h1 {
   margin-right: 10px;
 }
 
-.grid-Contacto {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  border: solid 3px black;
-  margin-left: 10px;
-  margin-right: 10px;
+.container {
+  width: 50%;
+  margin: 0 auto;
 }
 
-.grid-contA {
-  grid-row: 1 span 1;
-  border: solid 1px black;
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
 }
 
-.grid-contB {
-  grid-row: 1 span 1;
-  border: solid 1px black;
+.form-contact-input {
+  width: 100%;
+  color: #292929;
+  font-size: 16px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
 }
 
-.grid-contC {
-  grid-row: 1 span 1;
-  border: solid 1px black;
+.form-contact-textarea {
+  width: 100%;
+  color: #292929;
+  font-size: 16px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
 }
 
-.grid-contD {
-  grid-row: 1 span;
-  border: solid 1px black;
+.form-contact-button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  opacity: 0.8;
+  /* margin-bottom: 20px; */
+  cursor: pointer;
+  background: #03023c;
+  display: block;
+  border: none;
+  border: 1px solid #000;
+  transition: 1s;
+}
+
+.form-contact-button:hover {
+  opacity: 0.5;
 }
 
 /*Estilos Header*/
@@ -257,6 +296,7 @@ h1 {
 
 /*Media Queris Mobile*/
 @media only screen and (max-width: 450px) {
+  /*Index*/
   /*Nosotros*/
   .txt-nos {
     font-size: 12px;
