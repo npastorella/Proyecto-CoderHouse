@@ -54,6 +54,9 @@ h1 {
 }
 
 /*Estilos Footer*/
+.class-Footer {
+  padding: 10px;
+}
 .class-Footer a .img-face {
   width: 7%;
   border: none;
@@ -277,6 +280,9 @@ h1 {
 }
 
 /*Estilos Footer*/
+.class-Footer {
+  padding: 10px;
+}
 .class-Footer a .img-face {
   width: 7%;
   border: none;
